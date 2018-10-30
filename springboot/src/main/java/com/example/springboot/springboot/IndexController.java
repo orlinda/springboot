@@ -8,6 +8,8 @@ public class IndexController {
 
 	@RequestMapping("/")
 	public String index() {
+		
+		//foi
 		return "index";
 	}
 }
